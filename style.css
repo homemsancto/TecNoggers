@@ -1,0 +1,146 @@
+/* limpar as formações*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #232326;
+}
+
+
+
+/*
+**** Formataçoes em menu ****
+*/
+
+
+a{
+	text-decoration: none;
+}
+
+#header a:link, #header a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#header a:hover {
+	color: #40102A;
+	background: white;
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #8C045D;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.conteudo-menu-lateral a{
+	font-size: 16px;
+	padding: 5px;
+	text-decoration: underline;
+}
+
+/*
+**** Formataçoes em geral ****
+*/
+h1{
+	color: whitesmoke;
+	font-size: 2.5em;
+}
+.noggers{
+	color: black;
+}
+h2{
+	color: whitesmoke;
+}
+
+h3{
+	color: whitesmoke;
+	background-color: #40102A;
+	padding: 5px;
+}
+
+p{
+	color: gray;
+}
+
+
+.data{
+	font-size: 0.8em;
+	border-bottom: 1px solid #2F1740;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+
+
+/*
+**** Layout ****
+*/
+
+
+/*** cabeça ***/
+#header{
+	background-color: #40102A;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo, #menu  {
+	padding: 10px;
+}
+/*** Meio ***/
+#principal{
+	width: 940px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#postagens{
+	width: 660px;
+	float: left;
+	background: #232326;
+
+
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #40102A;
+	border: 3px #8C045D double;
+}
+
+/*** ladinho ***/
+#menu-lateral{
+	width: 240px;
+	float: right;
+	background: #2F1740;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 4px #8C045D outset;
+}
+
+.conteudo-menu-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	color: gray;
+
+}
+
+/*** pé ***/
+#rodape{
+	text-align: center;
+	clear: both;
+	background-color: #533273;
+	padding: 15px;
+}
+
